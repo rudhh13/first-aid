@@ -1,0 +1,437 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #e74c3c;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    padding: 50px;
+}
+
+.btn {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+.about {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about h2 {
+    color: #e74c3c;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* First Aid Section */
+.first-aid {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.first-aid h2 {
+    color: #e74c3c;
+    text-align: center;
+}
+
+.first-aid ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.first-aid ol li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Home Page */
+.home {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.home h2 {
+    color: #e74c3c;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.first-aid-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+/* General Styling */
+.first-aid-content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.first-aid-content h2, .first-aid-content h3 {
+    color: #e74c3c;
+}
+
+/* First Aid Section Boxes */
+.first-aid-box {
+    background: #fff3f3;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid #e74c3c;
+    border-radius: 8px;
+}
+
+.first-aid-box h3 {
+    font-size: 22px;
+}
+
+.first-aid-box ol {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background: #e74c3c;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background: #c0392b;
+}
+
+/* Emergency Page */
+.emergency-content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.emergency-content h2, .emergency-content h3 {
+    color: #e74c3c;
+}
+
+.emergency-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emergency-content ul li {
+    background: #fff3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #e74c3c;
+    font-size: 18px;
+}
+
+.emergency-content ul li i {
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+/* Emergency Contact Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #e74c3c;
+    color: white;
+}
+
+/* About Page Styling */
+.about-content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-content h2, .about-content h3 {
+    color: #e74c3c;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    background: #fff3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #e74c3c;
+    font-size: 18px;
+}
+
+.about-content ul li i {
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.about-content a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+section.first-aid {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+/* Steps Accordion */
+.accordion {
+    background-color: #e57373;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.accordion:hover {
+    background-color: #b71c1c;
+}
+
+.accordion.active {
+    background-color: #d32f2f;
+}
+
+.panel {
+    padding: 15px;
+    display: none;
+    background-color: #ffccbc;
+    border-radius: 5px;
+}
+
+/* Medication Section */
+.medication {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffe082;
+    border-left: 5px solid #ff8f00;
+    border-radius: 5px;
+}
+
+.medication h3 {
+    color: #ff6f00;
+}
+
+.medication ul {
+    margin-top: 10px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d32f2f;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
